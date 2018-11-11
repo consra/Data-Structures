@@ -1,0 +1,40 @@
+===============================================================================
+
+Nume si prenume:      Raducanu Constantin................
+Grupa:                313CC..............................
+Tema:                 Tema 3,SD
+Tema proiectului:     Livrare de Produse
+Versiunea de compilator:            gcc version 5.4.0 20160609
+
+===============================================================================
+A) Detalii de implementare, bonusuri implementate:
+
+	Taskul1:
+	 Am creat o structura unde sa retin graful si functii specifice de initializare al acestuia.
+	La acest task m-am folosit de algoritmul dijakstra implementat in laborator , l-am modificat ca 
+	sa retina si drumul (pentru afisarea acestuia m-am folosit de o stiva , pentru ca erau in ordine
+	inversa) si sa returneze costul drumului a doua noduri primite ca parametri.
+
+	Taskul2:
+	 M-am folosit de aceeasi idee nu mai ca de data aceasta am mai facut o functie ce imi determina 
+	cea mai avantajoasa ferma dintre 2 comenzi succesive si alta ce determina doar cea mai scurta 
+	distanta dintre un client normal si o ferma 
+
+	Taskul3:
+	 Aici am generat toate solutiile posibile pentru ca apoi sa o pastrez doar pe cea mai optima.
+	Am creeat o noua structura numita vector unde retineam tipul fermei necesare si o variabila vazut
+	ce ma ajuta in generarea permutarilor .A mai fost nevoie sa creez si alte 2 functii (Best_ferm ,care 
+	imi returna cea mai avantajoasa ferma dintre 2 comenzi succesive si is_that_ferm,care determina daca 
+	nodul primit ca parametru este este o ferma de tipul de care aveam nevoie). 
+
+	
+Observatii:
+	O tema tare interesanta , totusi pacat ca nu am avut timp si de bonus.
+
+===============================================================================
+B) Feedback organizatoric pentru propunator:
+
+Timp aproximativ de rezolvare:      15-20............................. (in ore)
+Gradul de dificultate (1 = simplu)  5.............................. (max. 10)
+
+
