@@ -1,0 +1,16 @@
+Nume:Raducanu Constantin
+Grupa:313CC
+
+     Precizari:
+	Pentru taskul 3 as dori o rularea locala a checkerului fara valgrind pentru ca  ii ia prea mult sa ruleze dupa 
+testul 9 chiar daca dealoc toata memoria.Rulat fara valgrind testele imi iau maxim o secunda.
+
+     Explicatii:
+     	La primul exercitiul am folosit o structura de arbori unde am retinut matricea si copiii nodului respectiv ,apoi  cu o functie recursiva(asemanatoare cu DFS) am generat structura de arbori si matricea pentru fiecare nod.La afisare m-am 
+ folosit de aceeasi idee de parcurgere al arborului.
+     	La exercitiul 2 m-am folosit de 2 functii ajutatoare add_et(care genera recursiv eticheta pentru fiecare nod in functie de paritatea nivelului si etichetele copiilor) si test_cond_2 care vedea daca au fost indeplinite conditiile de 
+castig in functie de caracterul initial.
+	Pentru ambele taskuri am folosit aceeasi functie de inserare .
+	La taskul 3 m-am folosit de 2 cozii :una 'anterior' pentru a retine nodurile de pe nivele anterioare si alta
+'prezent' pe care aveam toate nodurile din linia citita .Cu ajutorul functie get_cop transformam linia intr-o coada 
+cu noduri de tipul Minimax_tree.Am incercat mai multe variante ca sa-mi intre in timp(cu 2 vectori pe care sa-i suprascriu,sau o singura coada ,dar nimic nu a mers).
